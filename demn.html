@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style data-next-hide-fouc="true">
+      body {
+        display: none;
+      }
+    </style>
+    <noscript data-next-hide-fouc="true"
+      ><style>
+        body {
+          display: block;
+        }
+      </style></noscript
+    >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="next-head-count" content="2" />
+    <noscript data-n-css=""></noscript>
+    <script
+      defer=""
+      nomodule=""
+      src="/_next/static/chunks/polyfills.js"
+    ></script>
+    <script src="/_next/static/chunks/webpack.js" defer=""></script>
+    <script src="/_next/static/chunks/main.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/_app.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/result.js" defer=""></script>
+    <script src="/_next/static/development/_buildManifest.js" defer=""></script>
+    <script src="/_next/static/development/_ssgManifest.js" defer=""></script>
+    <noscript id="__next_css__DO_NOT_USE__"></noscript>
+  </head>
+  <body>
+    <div id="__next">
+      <div>
+        <head>
+          <link
+            href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/rwd.table.min.css"
+            rel="stylesheet"
+            type="text/css"
+          />
+          <style>
+            .table-bordered {
+              border: 1px solid #ddd !important;
+            }
+
+            table caption {
+              padding: 0.5em 0;
+            }
+
+            @media screen and (max-width: 767px) {
+              table caption {
+                display: none;
+              }
+            }
+
+            .sticky-table-header {
+              background-image: linear-gradient(90deg, #cf331e, #ffffff);
+            }
+            .table-responsive {
+              border-radius: 50px;
+            }
+            /* thead {
+      background-color: #7f7f81;
+        border-radius: 50px;
+        border: 1px #000;
+        color: #7f7f81;
+        border-bottom: 1px solid #3e3e3e;
+    } */
+          </style>
+        </head>
+        <body>
+          <div id="resultTable">
+            <div>Auto body shop around Texas (92 )</div>
+            <div class="text-center">
+              <button class="btn btn-default">
+                <span class="glyphicon glyphicon-arrow-down"></span> DOWNLOAD
+                DATA
+              </button>
+            </div>
+            <br />
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="table-responsive" data-pattern="priority-columns">
+                    <table
+                      summary="This table shows how to create responsive tables using RWD-Table-Patterns' functionality"
+                      class="table table-bordered"
+                    >
+                      <!-- <caption class="text-center">An example of a responsive table based on RWD-Table-Patterns' <a href="http://gergeo.se/RWD-Table-Patterns/" target="_blank"> solution</a>:</caption> -->
+                      <thead>
+                        <tr>
+                          <th>Company Name</th>
+                          <th data-priority="1">Address</th>
+                          <th data-priority="2">Phone</th>
+                          <th data-priority="3">Website</th>
+                          <th data-priority="4">Rating</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Tech One Automotive</td>
+                          <td>8601 Burnet Rd</td>
+                          <td>(512) 690-4774</td>
+                          <td>https://www.techoneauto.com/?utm_campaign=gmb</td>
+                          <td>4.8 stars 834 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin's Automotive Specialists</td>
+                          <td>1417 W William Cannon Dr</td>
+                          <td>(512) 440-8878</td>
+                          <td>
+                            https://austinsautomotivespecialists.com/1417-west-william-cannon-drive/
+                          </td>
+                          <td>4.8 stars 1,001 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Auto Tek</td>
+                          <td>4313 Gillis St</td>
+                          <td>(512) 326-3881</td>
+                          <td>https://autotekinc.net/</td>
+                          <td>4.9 stars 669 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin DIY Shop</td>
+                          <td>10410 N Lamar Blvd</td>
+                          <td>(512) 358-6707</td>
+                          <td>http://www.diyatx.com/</td>
+                          <td>4.9 stars 284 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin's Automotive Specialists</td>
+                          <td>12990 Research Blvd</td>
+                          <td>(512) 331-5166</td>
+                          <td>
+                            https://austinsautomotivespecialists.com/12990-research-blvd/
+                          </td>
+                          <td>4.8 stars 612 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>All Tune and Lube Total Car Care</td>
+                          <td>12186 N Mopac Expy</td>
+                          <td>(512) 836-6724</td>
+                          <td>http://www.atlaustin.com/</td>
+                          <td>4.8 stars 280 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Luu Auto Repair & Body Shop</td>
+                          <td>903 Kramer Ln</td>
+                          <td>(512) 837-3714</td>
+                          <td>undefined</td>
+                          <td>4.9 stars 110 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Riethmeyer's Auto Repair</td>
+                          <td>12172 N Mopac Expy</td>
+                          <td>(512) 836-6615</td>
+                          <td>http://www.riethmeyerauto.com/</td>
+                          <td>4.9 stars 181 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Juke Auto</td>
+                          <td>924 Shady Ln</td>
+                          <td>(512) 385-5853</td>
+                          <td>https://www.jukeauto.com/</td>
+                          <td>4.7 stars 830 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Century Automotive</td>
+                          <td>5220A Jim Hogg Ave</td>
+                          <td>(512) 467-1255</td>
+                          <td>https://centuryautomotive.business.site/</td>
+                          <td>4.9 stars 146 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Luu Auto Repair</td>
+                          <td>8225 N Lamar Blvd</td>
+                          <td>(512) 837-1417</td>
+                          <td>undefined</td>
+                          <td>5.0 stars 142 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Flamingo Automotive</td>
+                          <td>3512 Guadalupe St</td>
+                          <td>(512) 459-9917</td>
+                          <td>http://flamingoautomotive.com/</td>
+                          <td>4.7 stars 193 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Dave's Ultimate Automotive</td>
+                          <td>4926 N Lamar Blvd</td>
+                          <td>(512) 872-5547</td>
+                          <td>
+                            https://davesultimateautomotive.com/central-austin/
+                          </td>
+                          <td>4.6 stars 636 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Dave's Ultimate Automotive</td>
+                          <td>2617 S 1st St</td>
+                          <td>(512) 881-7210</td>
+                          <td>
+                            https://davesultimateautomotive.com/south-austin/
+                          </td>
+                          <td>4.7 stars 610 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Eurofed Automotive</td>
+                          <td>6534 S Congress Ave</td>
+                          <td>(737) 260-7544</td>
+                          <td>https://eurofedtexas.com/</td>
+                          <td>4.8 stars 228 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Lopez Auto Repair</td>
+                          <td>8811 S 1st St</td>
+                          <td>(512) 840-0066</td>
+                          <td>http://www.lopezautorepair.com/</td>
+                          <td>4.6 stars 145 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Buddha's Garage</td>
+                          <td>9807 Beck Cir</td>
+                          <td>(512) 904-0130</td>
+                          <td>https://buddhasgarageatx.com/</td>
+                          <td>4.8 stars 210 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Luxury Auto Works - Austin</td>
+                          <td>8300 N Lamar Blvd Suite 100</td>
+                          <td>(512) 222-8867</td>
+                          <td>
+                            http://www.luxuryautoworks.com/?utm_campaign=gmb
+                          </td>
+                          <td>4.6 stars 626 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Auto Techs</td>
+                          <td>4918 Hamilton Rd</td>
+                          <td>(512) 343-7711</td>
+                          <td>http://www.austinautotechs.com/</td>
+                          <td>4.7 stars 255 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>All Points Auto Electric</td>
+                          <td>2700 E 7th St</td>
+                          <td>(512) 482-9800</td>
+                          <td>http://www.theautoelectric.com/</td>
+                          <td>4.9 stars 357 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>All Points Auto Electric</td>
+                          <td>2700 E 7th St</td>
+                          <td>(512) 482-9800</td>
+                          <td>http://www.theautoelectric.com/</td>
+                          <td>4.9 stars 357 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>766 Auto Inc</td>
+                          <td>209 N Pleasant Valley Rd</td>
+                          <td>(512) 766-2886</td>
+                          <td>https://www.766auto.com/</td>
+                          <td>4.3 stars 209 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Northwest Imports</td>
+                          <td>13200 Pond Springs Rd C5</td>
+                          <td>(512) 601-8246</td>
+                          <td>https://nwimports.com/</td>
+                          <td>5.0 stars 463 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Eurofed Automotive</td>
+                          <td>6534 S Congress Ave</td>
+                          <td>(737) 260-7544</td>
+                          <td>https://eurofedtexas.com/</td>
+                          <td>4.8 stars 228 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Dave's Ultimate Automotive</td>
+                          <td>2617 S 1st St</td>
+                          <td>(512) 881-7210</td>
+                          <td>
+                            https://davesultimateautomotive.com/south-austin/
+                          </td>
+                          <td>4.7 stars 610 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin's Automotive Specialists</td>
+                          <td>1607 W Parmer Ln</td>
+                          <td>(512) 834-0604</td>
+                          <td>
+                            https://austinsautomotivespecialists.com/1607-west-parmer/
+                          </td>
+                          <td>4.6 stars 1,211 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Longhorn Automotive</td>
+                          <td>6515 Burnet Rd</td>
+                          <td>(512) 669-2833</td>
+                          <td>http://www.longhornautomotive.com/</td>
+                          <td>4.7 stars 118 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Flamingo Automotive</td>
+                          <td>3512 Guadalupe St</td>
+                          <td>(512) 459-9917</td>
+                          <td>http://flamingoautomotive.com/</td>
+                          <td>4.7 stars 193 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Buddha's Garage</td>
+                          <td>9807 Beck Cir</td>
+                          <td>(512) 904-0130</td>
+                          <td>https://buddhasgarageatx.com/</td>
+                          <td>4.8 stars 210 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Swedish Auto Service</td>
+                          <td>11008 N Lamar Blvd</td>
+                          <td>(512) 601-5153</td>
+                          <td>https://swedishautoservice.com/</td>
+                          <td>4.7 stars 284 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>5Star Auto</td>
+                          <td>904 Prairie Trail</td>
+                          <td>(512) 821-1360</td>
+                          <td>http://5starautotx.com/</td>
+                          <td>4.9 stars 254 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Brownie's Automotive</td>
+                          <td>3902 Woodbury Dr</td>
+                          <td>(512) 442-3363</td>
+                          <td>
+                            https://browniesautomotive.wixsite.com/my-site
+                          </td>
+                          <td>4.9 stars 63 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Auto Service</td>
+                          <td>6750 Corpus Christi Dr</td>
+                          <td>(512) 335-4343</td>
+                          <td>
+                            https://www.sunautoservice.com/locations/tx/austin/auto-repair-4023.html
+                          </td>
+                          <td>4.7 stars 591 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin Auto Repair</td>
+                          <td>9324 US-290</td>
+                          <td>(512) 865-6217</td>
+                          <td>https://www.autorepairsaustin.net/</td>
+                          <td>4.8 stars 65 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>M E Gene Johnson Garage</td>
+                          <td>4801 Airport Blvd</td>
+                          <td>(512) 453-7376</td>
+                          <td>http://www.megjgarage.com/</td>
+                          <td>4.7 stars 316 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Luxury Auto Works - Austin</td>
+                          <td>8300 N Lamar Blvd Suite 100</td>
+                          <td>(512) 222-8867</td>
+                          <td>
+                            http://www.luxuryautoworks.com/?utm_campaign=gmb
+                          </td>
+                          <td>4.6 stars 626 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin's Automotive Specialists</td>
+                          <td>8405 Research Blvd</td>
+                          <td>(512) 339-4199</td>
+                          <td>
+                            https://austinsautomotivespecialists.com/8405-research-blvd/
+                          </td>
+                          <td>4.5 stars 529 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Crank Auto Repair</td>
+                          <td>4508 Brandt Rd suite K</td>
+                          <td>(512) 645-0009</td>
+                          <td>http://www.crankautorepair.com/</td>
+                          <td>4.8 stars 181 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Yost Automotive II</td>
+                          <td>6517 N Lamar Blvd</td>
+                          <td>(512) 452-9678</td>
+                          <td>http://www.yostauto.com/</td>
+                          <td>4.8 stars 278 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Meineke Car Care Center</td>
+                          <td>319 E Ben White Blvd</td>
+                          <td>(512) 920-3943</td>
+                          <td>
+                            https://www.meineke.com/locations/tx/austin-2664/?utm_source=google&utm_medium=organic&utm_campaign=gbp_website
+                          </td>
+                          <td>4.6 stars 314 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Dave's Ultimate Automotive</td>
+                          <td>2711 W Howard Ln</td>
+                          <td>(512) 881-9819</td>
+                          <td>
+                            https://davesultimateautomotive.com/north-austin/
+                          </td>
+                          <td>4.7 stars 678 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Southwest Automotive</td>
+                          <td>5905 McCarty Ln</td>
+                          <td>(512) 892-2447</td>
+                          <td>http://southwestautomotiveaustin.com/</td>
+                          <td>4.8 stars 76 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Uptown Auto Repair</td>
+                          <td>1007 W Anderson Ln.</td>
+                          <td>(512) 467-7363</td>
+                          <td>undefined</td>
+                          <td>4.8 stars 103 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Oak Hill Automotive</td>
+                          <td>9301 State Hwy 71</td>
+                          <td>(512) 288-3366</td>
+                          <td>https://www.oakhillautomotive.com/</td>
+                          <td>4.8 stars 428 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Ben White Automotive</td>
+                          <td>6401 S 1st St suite E</td>
+                          <td>(512) 440-0409</td>
+                          <td>https://benwhiteautomotive.com/</td>
+                          <td>4.6 stars 304 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin Corvette</td>
+                          <td>10720 N Lamar Blvd</td>
+                          <td>undefined</td>
+                          <td>undefined</td>
+                          <td>4.5 stars 28 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Oak Knoll Automotive</td>
+                          <td>12538 Research Blvd</td>
+                          <td>(512) 506-8008</td>
+                          <td>undefined</td>
+                          <td>4.4 stars 80 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Terry Sayther Automotive</td>
+                          <td>1700 Fort View Rd</td>
+                          <td>(737) 258-7522</td>
+                          <td>https://www.terrysaytherauto.com/</td>
+                          <td>4.9 stars 975 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>T&T Auto Repair</td>
+                          <td>601 Ferguson Dr</td>
+                          <td>(512) 837-8682</td>
+                          <td>http://www.ttautorepair.net/</td>
+                          <td>4.3 stars 107 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Olmeda's Tire & Auto</td>
+                          <td>8807 N Lamar Blvd</td>
+                          <td>(512) 251-0451</td>
+                          <td>http://olmedatireandauto.com/</td>
+                          <td>4.6 stars 154 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Abee's Hi-Tech Auto Service</td>
+                          <td>811 Mc Phaul St</td>
+                          <td>(512) 837-1987</td>
+                          <td>https://abeesautomotive.com/</td>
+                          <td>4.8 stars 86 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin's Finest Alignments & Brakes</td>
+                          <td>3710 Airport Blvd</td>
+                          <td>(512) 539-0992</td>
+                          <td>http://austinsfinestalignmentsandbrakes.com/</td>
+                          <td>4.5 stars 111 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Auto Service</td>
+                          <td>405 W Slaughter Ln</td>
+                          <td>(512) 291-6789</td>
+                          <td>
+                            https://www.sunautoservice.com/locations/tx/austin/auto-repair-4172.html
+                          </td>
+                          <td>4.2 stars 821 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Lopez Auto Repair</td>
+                          <td>1900 Fort View Rd</td>
+                          <td>(512) 441-8939</td>
+                          <td>http://lopezautorepair.com/</td>
+                          <td>4.7 stars 118 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>AO Amigos Auto Service</td>
+                          <td>4502 Doss Rd</td>
+                          <td>(512) 545-8271</td>
+                          <td>http://www.aoamigosautoservice.com/</td>
+                          <td>4.8 stars 132 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Newman's Automotive</td>
+                          <td>3916 Woodbury Dr</td>
+                          <td>(512) 447-7801</td>
+                          <td>http://www.newmansauto.com/</td>
+                          <td>4.6 stars 1,013 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Superior Automotive</td>
+                          <td>4222 S 1st St</td>
+                          <td>(512) 445-9644</td>
+                          <td>http://www.superiorautomotiveaustin.com/</td>
+                          <td>4.9 stars 85 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Gene Johnson Automotive Services</td>
+                          <td>2300 Manor Rd</td>
+                          <td>(512) 478-2417</td>
+                          <td>http://genejohnsonautomotive.com/</td>
+                          <td>4.1 stars 117 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>APR Engines & Automotive</td>
+                          <td>5209 Manor Rd</td>
+                          <td>(512) 549-4597</td>
+                          <td>http://www.autorepairshopaustin.com/</td>
+                          <td>4.8 stars 94 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Genuine Automotive & Diesel</td>
+                          <td>16501 Bratton Ln Bldg 2, Suite A</td>
+                          <td>(512) 967-0577</td>
+                          <td>https://genuineautomotive.net/</td>
+                          <td>4.8 stars 301 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>DR Euro Master Auto Repair</td>
+                          <td>13501 US-183</td>
+                          <td>(512) 360-8889</td>
+                          <td>https://www.dreuromasterautorepair.com/</td>
+                          <td>4.7 stars 133 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Automotive Services of Austin</td>
+                          <td>3235 E Martin Luther King Jr Blvd</td>
+                          <td>(512) 477-7575</td>
+                          <td>
+                            https://autoservicesofaustin.com/?utm_source=omg-gbp&utm_medium=webclick
+                          </td>
+                          <td>4.0 stars 153 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Midas</td>
+                          <td>2415 W Ben White Blvd</td>
+                          <td>(512) 593-7761</td>
+                          <td>
+                            https://www.midas.com/store/tx/austin/2415-west-ben-white-boulevard-78704?shopnum=5886&utm_source=google&utm_medium=maps&utm_campaign=google+maps&y_source=1_MTE5MjE3NzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+                          </td>
+                          <td>4.4 stars 716 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Cap's Service and Repair</td>
+                          <td>3614 Chapman Ln</td>
+                          <td>(512) 373-8699</td>
+                          <td>
+                            https://www.facebook.com/CapsServiceandRepair/
+                          </td>
+                          <td>5.0 stars 50 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Advanced Automotive & Tire</td>
+                          <td>7528 Burnet Rd</td>
+                          <td>(512) 454-3454</td>
+                          <td>http://www.advancedautoandtire.com/</td>
+                          <td>4.8 stars 138 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Amazing Auto Repair & Transmission</td>
+                          <td>1601 Hydro Dr</td>
+                          <td>(512) 383-8000</td>
+                          <td>
+                            https://www.amazingautoandtransmissionrepair.com/
+                          </td>
+                          <td>4.5 stars 394 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Joe the Mechanic</td>
+                          <td>11218 US-290</td>
+                          <td>(512) 300-9951</td>
+                          <td>http://www.austintxmechanic.com/</td>
+                          <td>4.8 stars 53 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Lucas Tire & Auto Service</td>
+                          <td>7430 Burnet Rd</td>
+                          <td>(512) 453-2221</td>
+                          <td>https://lucastirepros.com/</td>
+                          <td>4.8 stars 350 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Excalibur Automotive Repair</td>
+                          <td>8701 Research Blvd suite h</td>
+                          <td>(512) 454-3733</td>
+                          <td>https://excaliburautorepair.com/</td>
+                          <td>4.6 stars 254 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Pampered Auto Care</td>
+                          <td>16299 Farm to Market Rd 1325 B</td>
+                          <td>(512) 310-1107</td>
+                          <td>http://www.pamperedautocare.com/</td>
+                          <td>4.5 stars 140 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Best Automotive</td>
+                          <td>7928-A State Hwy 71</td>
+                          <td>(512) 447-0447</td>
+                          <td>undefined</td>
+                          <td>4.8 stars 59 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Rising Sun Automotive</td>
+                          <td>1001 S Lamar Blvd</td>
+                          <td>(512) 443-4122</td>
+                          <td>http://www.risingsunjapanese.com/</td>
+                          <td>4.5 stars 206 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Tex Tune Automotive</td>
+                          <td>3415 Andtree Blvd</td>
+                          <td>(512) 861-6574</td>
+                          <td>undefined</td>
+                          <td>5.0 stars 38 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Lamb's Tire & Automotive</td>
+                          <td>5001 US-290 W</td>
+                          <td>(512) 891-9988</td>
+                          <td>http://www.lambstire.com/</td>
+                          <td>4.5 stars 739 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Midas</td>
+                          <td>4001 Guadalupe St</td>
+                          <td>(512) 893-6265</td>
+                          <td>
+                            https://www.midas.com/store/tx/austin/4001-guadalupe-street-78751?shopnum=5533&utm_source=google&utm_medium=maps&utm_campaign=google+maps&y_source=1_MTE5MDg0NDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+                          </td>
+                          <td>4.1 stars 1,097 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Tri's Auto Repair</td>
+                          <td>710 W Grady Dr #3440</td>
+                          <td>(512) 986-9889</td>
+                          <td>undefined</td>
+                          <td>4.7 stars 66 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Koenig Lane Inspections</td>
+                          <td>301 W Koenig Ln</td>
+                          <td>(512) 459-5869</td>
+                          <td>undefined</td>
+                          <td>4.8 stars 106 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Don's Automotive Repair</td>
+                          <td>1636 S 1st St</td>
+                          <td>(512) 447-9032</td>
+                          <td>https://donsautomotive.com/</td>
+                          <td>4.6 stars 108 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Lugnuts Automotive</td>
+                          <td>6212 Menchaca Rd</td>
+                          <td>(512) 445-6887</td>
+                          <td>http://www.lugnutsautomotive.com/</td>
+                          <td>4.8 stars 119 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>German Auto Center</td>
+                          <td>8215 Research Blvd</td>
+                          <td>(512) 452-6437</td>
+                          <td>https://www.germanautocenter.com/</td>
+                          <td>4.6 stars 285 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Hi-Tech Automotive</td>
+                          <td>1801 S Congress Ave</td>
+                          <td>(512) 441-1933</td>
+                          <td>http://www.hitechaustin.com/</td>
+                          <td>4.6 stars 268 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Crestview Auto Repair</td>
+                          <td>7200 Woodrow Ave</td>
+                          <td>(512) 467-0765</td>
+                          <td>undefined</td>
+                          <td>4.8 stars 36 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Minas Auto Care - Auto Repair Austin</td>
+                          <td>105 E Braker Ln b</td>
+                          <td>(512) 326-4600</td>
+                          <td>http://www.minasautocare.com/</td>
+                          <td>4.9 stars 27 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin Texas Mechanic</td>
+                          <td>5319 N Lamar Blvd</td>
+                          <td>(512) 628-8300</td>
+                          <td>http://www.austintxmechanic.com/</td>
+                          <td>4.2 stars 163 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Lamb's Tire & Automotive</td>
+                          <td>10740 Research Blvd #115</td>
+                          <td>(512) 345-5556</td>
+                          <td>http://www.lambstire.com/</td>
+                          <td>4.7 stars 1,164 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Arbor Auto Works</td>
+                          <td>5422 Burnet Rd</td>
+                          <td>(512) 346-0152</td>
+                          <td>https://arborautoworks.com/</td>
+                          <td>4.7 stars 212 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Calderon Auto Repair</td>
+                          <td>3500 S Congress Ave</td>
+                          <td>(512) 667-8636</td>
+                          <td>undefined</td>
+                          <td>4.9 stars 25 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Jimmy's Top Tech Auto</td>
+                          <td>2216 S 1st St</td>
+                          <td>(512) 768-2965</td>
+                          <td>https://www.austinautorepairshop.com/</td>
+                          <td>4.6 stars 151 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Motormania</td>
+                          <td>10208 Ranch Rd 620 N</td>
+                          <td>(512) 331-0877</td>
+                          <td>http://motormaniainc.com/</td>
+                          <td>4.9 stars 176 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Raul's Automotive Inc.</td>
+                          <td>13200 Pond Springs Rd</td>
+                          <td>(512) 331-0437</td>
+                          <td>http://www.raulsautomotive.com/</td>
+                          <td>4.4 stars 78 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Westlake Auto Care</td>
+                          <td>98 Redbud Trail</td>
+                          <td>(512) 327-0262</td>
+                          <td>https://westlakeautocare.com/</td>
+                          <td>4.6 stars 37 Reviews</td>
+                        </tr>
+                        <tr>
+                          <td>Austin Body Works</td>
+                          <td>1310 E 6th St</td>
+                          <td>(512) 472-3522</td>
+                          <td>https://www.austinbodyworks.com/</td>
+                          <td>5.0 stars 146 Reviews</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <button class="btn btn-default">
+                    <span class="glyphicon glyphicon-arrow-down"></span>
+                    DOWNLOAD DATA
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script
+            src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+            type="text/javascript"
+          ></script>
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"
+            type="text/javascript"
+          ></script>
+          <script
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/rwd-table-patterns.js"
+            type="text/javascript"
+          ></script>
+          <script defer></script>
+        </body>
+      </div>
+    </div>
+    <script src="/_next/static/chunks/react-refresh.js"></script>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": { "pageProps": {} },
+        "page": "/result",
+        "query": {},
+        "buildId": "development",
+        "nextExport": true,
+        "autoExport": true,
+        "isFallback": false,
+        "scriptLoader": []
+      }
+    </script>
+  </body>
+</html>
